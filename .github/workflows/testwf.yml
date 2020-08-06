@@ -16,6 +16,5 @@ jobs:
   my_first_job:
     name: My Job Name
     runs-on: ubuntu-latest
-    if: contains(github.event.comment.html_url, '/pull/')
     steps:
-      - uses: bbaldino/jitsi-ga-test@26389fa
+      - uses: bbaldino/jitsi-ga-test@39886ef

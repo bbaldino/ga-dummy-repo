@@ -13,5 +13,6 @@ on:
 jobs:
   my_first_job:
     name: My Job Name
-      steps:
-        - uses: bbaldino/jitsi-ga-test@6e90712
+    runs-on: ubuntu-latest
+    steps:
+      - uses: bbaldino/jitsi-ga-test@6e90712

@@ -17,4 +17,4 @@ jobs:
     name: My Job Name
     runs-on: ubuntu-latest
     steps:
-      - uses: bbaldino/jitsi-ga-test@6e90712
+      - uses: bbaldino/jitsi-ga-test@0b6d385

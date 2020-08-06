@@ -18,4 +18,4 @@ jobs:
     runs-on: ubuntu-latest
     if: contains(github.event.comment.html_url, '/pull/')
     steps:
-      - uses: bbaldino/jitsi-ga-test@0b6d385
+      - uses: bbaldino/jitsi-ga-test@026389fa

@@ -18,3 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: bbaldino/jitsi-ga-test@HEAD
+      - uses: actions/upload-artifact@v2
+        with:
+            name: logs
+            path: logs
